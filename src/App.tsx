@@ -8,11 +8,10 @@ export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <TransactionsProvider>
-        <Transactions/>
+        <Transactions />
       </TransactionsProvider>
-      
+
       <GlobalStyle />
     </ThemeProvider>
   )
 }
-
