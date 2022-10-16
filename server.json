@@ -1,0 +1,36 @@
+{
+  "transctions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-10-16T11:51:25.471Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-10-16T11:49:25.471Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-10-16T15:58:33.496Z",
+      "id": 3
+    },
+    {
+      "description": "Limão",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-10-16T16:14:36.588Z",
+      "id": 4
+    }
+  ]
+}
