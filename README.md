@@ -1,11 +1,15 @@
 # 03-dt-money
 
-O DT Money é uma aplicação desenvolvida durante o módulo 3 do bootcamp Ignite.
+O DT Money foi desenvolvido durante o módulo 3 do bootcamp Ignite, trilha React.
 <br>
-Neste módulo foi apresentado o uso de uma API e como ocorre a interação entre front-end e backend. Para a construção da aplicação foram utilizadas algumas bibliotecas, como: Radix, JSON Server e React Hook Form.
+Neste módulo foram apresentados os conceitos de consumo de uma API na camada de front-end. Além disso, foi possível simular como ocorre a comunicação entre front e backend através do uso da biblioteca JSON Server, que tem como objetivo simular a camada de backend.
+<br>
+Durante as aulas foi levantado uma discussão quanto a importância de acessibilidade das aplicações, principalmente com relação aos usuários de leitores de tela. Pensando nisso, optou-se por utilizar os componentes de modal e radio button da biblioteca Radix, por apresentarem os conceitos de acessibilidade configurados e serem de fácil estilização. Ademais, biblioteca React Hook Form e Zod foram utilizadas para tratar os formulários do modal e da barra de pesquisa, e as requisições foram feitas com o Axios. 
 
-## Bibliotecas utilizadas
-- [Radix](https://www.radix-ui.com/) para construção do modal e input radio, optou-se por utilizar uma biblioteca de UI components por haver acessibilidade;
-- [JSON server](https://github.com/typicode/json-server) para simular o backend;
-- React Hook Form e Zod para tratar formulários;
-- Axios para requisições.
+## Ferramentas utilizadas na construção da aplicação
+- Vite;
+- Styled-components;
+- [Radix](https://www.radix-ui.com/);
+- [JSON server](https://github.com/typicode/json-server);
+- React Hook Form e Zod;
+- Axios.
